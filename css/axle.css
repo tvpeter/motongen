@@ -238,3 +238,9 @@ footer .col-md-3 {
     padding-left: 1em;
 }
 }
+
+@media screen and (max-width: 425px) {
+    .section-2 {
+        padding-bottom: 50vmin;
+    }
+}
