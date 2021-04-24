@@ -311,3 +311,46 @@ footer p {
             padding-top: 3vmin;
         }
 }
+
+@media only screen and (max-width:425px){
+
+    header .container {
+        padding-bottom: 12em;
+    }
+
+    header .row .col-md-6:first-child {
+        padding-bottom: 1em;
+    }
+
+    header .container .col-md-6:last-child p {
+        padding-right: 0em;
+        padding-top: 2em;
+        padding-left: 1em;
+    }
+
+    .section-1 img{
+        width: 90%;
+        height: 90%;
+    }
+
+    .section-3 {
+        padding-bottom: 16em;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+
+    header .container .col-md-6:last-child p{
+         padding-right: 1vmin;
+         padding-top: 2em;
+    }
+
+    .section-1 .col-md-6 p{
+        padding-right: 1em;
+    }
+
+    .section-3 {
+        padding-bottom: 10em;
+    }
+}
