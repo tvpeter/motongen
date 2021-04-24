@@ -35,7 +35,7 @@ header {
     background-size:cover;
     position: relative;
     height: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
     z-index: 1;
 }
 
@@ -340,4 +340,19 @@ footer p {
         height: 45em;
     }
 
+}
+
+@media screen and (max-width: 425px) {
+
+    .section-3 .row .panel {
+        left: 1em;
+    }
+
+    .section-4 {
+        height: 150em;
+    }
+    footer .row {
+        padding-left: 4vmin;
+        padding-top: 0px;
+    }   
 }
