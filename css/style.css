@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+@import url('../fonts/stylesheet.css');
+
+*{
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Titillium: 'Titillium Web', sans-serif;
+    --Inter: 'Graphik';
+    --red: #BF1E2E;
+}
+
+
+header a{
+    font-family: var(--Inter);
+    font-size: 0.6em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+header {
+    background: #232528;
+    background: url("../assets/bg.png") no-repeat;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #FFFFFF;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 5vmin;
+}
+
+header .nav-link:hover {
+    color: var(--red);
+}
+
+header .row .col-md-6:first-child {
+    padding-top: 22vmin;
+    padding-left: 7vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+
+header .container .col-md-6 h1 {
+    font-family: var(--Titillium);
+    font-size: 9vmin;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+}
+
+header .container .col-md-6 p {
+    padding-top: 1vmin;
+    font-family: var(--Inter);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 1rem;
+}
+
+header .container .col-md-6 button {
+    font-weight: normal;
+    font-family: var(--Titillium);
+    background: var(--red);
+    color: white;
+    border: none;
+    margin-top: 1rem;
+}
+
+header .container .col-md-6:last-child{
+    position: relative;
+    color: white;
+}
+
+header .container .col-md-6:last-child span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+header .container .col-md-6:last-child h1{
+    font-family: var(--Titillium);
+    font-size: 6.2vmin;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header .container .col-md-6:last-child p{
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 16em;
+    font-size: 14px;
+}
+
+.section-1 {
+    background-color: #E4F1FE;
+    ;
+    height: 22rem;
+    overflow-y: hidden;
+}
+
+
+.section-1 .col-md-6:first-child img{
+    padding-left: 5vmin;
+    z-index: 1;
+    position: absolute;
+    margin-top: -30vmin;
+    padding-bottom: 4vmin;
+    /* box-shadow: 1px 2px 50px 0px #232528; */
+
+}
+
+.section-1 .col-md-6:last-child {
+    padding-top: 5vmin;
+    padding-right: 35vmin;
+    padding-left: 0;
+    font-family: var(--Inter);
+    left: 0;
+    font-size: 1em;
+}
+.section-1 button{
+    padding-top: 3vmin;
+    font-family: var(--Titillium);
+    font-size: 1em;
+
+}
+
+.section-2 {
+    padding: 10vmin 10vmin;
+    background: #BF1E2E;
+    color: white;
+    z-index: 10;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+}
+
+.section-2 h1{
+    font-family: var(--Titillium);
+    font-weight: 700;
+    font-size: 2.8em;
+    text-transform: uppercase;
+}
+
+.section-2 p{
+    font-family: var(--Inter);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2vmin 8vmin;
+}
+
+footer {
+    margin-top: 4vmin;
+    padding: 2vmin 0vmin;
+}
+
+
+footer h4{
+    font-family: var(--Titillium);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+footer p {
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width:320px){
+
+
+    #title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 2vmin;
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+      
+
+}
