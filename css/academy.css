@@ -31,7 +31,7 @@ header {
     background: url("../assets/student.png") no-repeat;
     width: 100%;
     background-position: cover;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     height: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
@@ -169,4 +169,24 @@ footer p {
     font-weight: 400;
     font-style: normal;
     font-size: .9em;
+}
+
+@media screen and (max-width: 320px) {
+
+
+    header {
+        margin-bottom: -5em;
+    }
+
+    .section-2 h2 {
+        font-size: 6vmin;
+    }
+    
+    footer .row {
+        padding-left: 4vmin;
+    }
+
+    footer .col-md-3 {
+        padding-left: 1em;
+    }
 }
