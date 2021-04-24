@@ -128,7 +128,7 @@ header .container .col-md-6:last-child p{
     z-index: 1;
     color: white;
     text-align: justify;
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
 
@@ -300,4 +300,14 @@ footer p {
     footer .col-md-3 {
         padding-left: 1em;
     }
+}
+
+@media only screen and (max-width:1024px){
+    header .container .col-md-6 h1 {
+        font-size: 6vmin;
+        }
+
+        header .container .col-md-6:last-child p{
+            padding-top: 3vmin;
+        }
 }
