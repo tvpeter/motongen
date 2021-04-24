@@ -119,8 +119,6 @@ header .container .col-md-6:last-child{
     position: relative;
 }
 
-
-
 header .container .col-md-6:last-child p{
     font-family: var(--Inter);
     font-weight: 400;
@@ -139,8 +137,13 @@ header .container .col-md-6:last-child p{
     /* height: 22rem; */
     overflow-y: hidden;
 }
-.section-1 .col-md-6{
-    padding: 2vmin 0 4vmin 4vmin;
+
+.section-1 img{
+    width: 75%;
+    height: 75%;
+}
+.section-1 .col-md-6:first-child{
+    padding-left: 6vmin;
 }
 
 .section-1 h3{
@@ -192,6 +195,9 @@ header .container .col-md-6:last-child p{
 .section-3 .container {
     padding-bottom: 6vmin;
 }
+.section-3 .row {
+    padding-left: 5vmin;
+}
 .section-3 h2{
     font-family: var(--Titillium);
     font-weight: 700;
@@ -215,6 +221,9 @@ footer {
     padding: 2vmin 0vmin;
 }
 
+footer .col-md-3 {
+    padding-left: 4em;
+}
 
 footer h4{
     font-family: var(--Titillium);
@@ -267,6 +276,18 @@ footer p {
     .section-1 h3 {
         padding-top: 1vmin;
     }
+    .section-3 .row {
+        padding-left: 2vmin;
+    }
+
+    .section-1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-1 .col-md-6:last-child {
+        padding-right: 0;
+    }
 
     .section-3 .row .col-md-6:last-child {
         padding-bottom: 21em;
@@ -274,5 +295,9 @@ footer p {
 
     footer .row {
         padding-left: 4vmin;
+    }
+
+    footer .col-md-3 {
+        padding-left: 1em;
     }
 }
