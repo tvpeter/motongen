@@ -29,10 +29,10 @@ header a{
 
 header {
     background: #232528;
-    background: url("../assets/gearbox.png");
+    background: url("../assets/gearbox.png") no-repeat;
     width: 100%;
     background-position: cover;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     height: 100%;
 }
@@ -134,18 +134,20 @@ header .container .col-md-6:last-child p{
 
 .section-1 .col-md-6:first-child p{
     font-family: var(--Titillium);
-    padding-left: 8vmin;
+    padding-left: 5vmin 2vmin 2vmin 8vmin;
     font-weight: 700;
     color: #BF1E2E;
     font-size: 2em;
+    
 }
 
-.section-1 .col-md-6:last-child p{
+.section-1 .col-md-6:last-child{
     font-family: var(--Inter);
     font-weight: 400;
     color: #232528;
-    font-size: 1em;
-    padding-right: 8vmin;
+    font-size: 14px;
+    text-align: justify;
+    padding: 5vmin 8vmin 2vmin 8vmin;
 }
 
 
@@ -225,4 +227,32 @@ footer p {
     font-weight: 400;
     font-style: normal;
     font-size: .9em;
+}
+
+@media only screen and (max-width:320px){
+    
+    .section-1 .col-md-6:first-child p{
+        padding-top: 2vmax;
+        padding-bottom: 1vmax;
+    }
+
+
+.section-2 {
+    padding: 5vmin 1vmin;
+}
+
+.section-2 h3, h2{
+    padding-left: 1vmin;
+    text-align: left;
+    font-size: 26px;
+}
+
+.section-2 p{
+    padding: 2vmin 2vmin;
+    text-align: justify;
+}
+
+footer .row {
+    padding-left: 4vmin;
+}
 }
