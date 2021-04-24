@@ -30,7 +30,7 @@ header {
     background: url("../assets/installer.png") no-repeat;
     width: 100%;
     background-position: cover;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     height: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
@@ -126,29 +126,6 @@ header .container .col-md-6:last-child p{
     font-size: 14px;
 }
 
-
-.section-1 {
-    background-color: #FFFFFF;
-    overflow-y: hidden;
-}
-
-.section-1 .col-md-6:first-child p{
-    font-family: var(--Titillium);
-    padding-left: 8vmin;
-    font-weight: 700;
-    color: #BF1E2E;
-    font-size: 2em;
-}
-
-.section-1 .col-md-6:last-child p{
-    font-family: var(--Inter);
-    font-weight: 400;
-    color: #232528;
-    font-size: 0.8em;
-    padding-right: 8vmin;
-}
-
-
 .section-2 {
     padding: 20vmin 10vmin;
     background-color: #E4F1FE;
@@ -214,4 +191,34 @@ footer p {
     font-weight: 400;
     font-style: normal;
     font-size: .9em;
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        z-index: 1;
+        margin-bottom: -11em;
+    }
+
+    .section-2 {
+        padding: 4vmin 0 80vmin 0;
+    }
+    .section-2 .col-md-8 {
+        padding-top: 10em;
+        padding-left: 2vmin;
+        text-align: left;
+    }
+
+    .section-2 h2{
+       font-size: 8vmin;
+        text-align: left;
+    }
+
+    footer .row {
+        padding-left: 4vmin;
+    }
+
+    footer .col-md-3 {
+        padding-left: 1em;
+    }
 }
