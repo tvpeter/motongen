@@ -29,7 +29,7 @@ header {
     background: #E4F1FE;
     width: 100%;
     background-position: cover;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     /* height: 100%; */
 }
