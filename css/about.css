@@ -186,8 +186,9 @@ header .container .col-md-6:last-child p{
 .section-3 {
     display: flex;
     flex-direction: column;
-    min-height: 75vh;;
+    min-height: 85vh;;
     background-color: #E4F1FE;
+    position: relative;
     z-index: 10;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
 }
