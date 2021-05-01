@@ -17,13 +17,17 @@ section {
 }
 
 
-header a{
+header a, span{
     font-family: var(--Inter);
     font-size: 0.6em;
     text-transform: uppercase;
     color: #FFFFFF;
     line-height: 20px;
     font-weight: 600;
+}
+
+header span {
+    color: #000;
 }
 
 header {

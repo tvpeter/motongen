@@ -16,14 +16,16 @@ section {
     --red: #BF1E2E;
 }
 
-header a{
+header a, span{
     font-family: var(--Inter);
     font-size: 0.6em;
     text-transform: uppercase;
-    color: #000000;
+    color: #000;
     line-height: 20px;
     font-weight: 600;
 }
+
+
 
 header {
     background: #E4F1FE;
