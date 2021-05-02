@@ -32,7 +32,7 @@ header span {
 
 header {
     background: #232528;
-    background: url("../assets/gearbox.png") no-repeat;
+    background: url("../assets/gearbox.webp") no-repeat;
     width: 100%;
     background-position: cover;
     background-size: cover;

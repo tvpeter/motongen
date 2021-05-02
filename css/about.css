@@ -32,7 +32,7 @@ header span {
 
 header {
     background: #232528;
-    background: url("../assets/about.png") no-repeat;
+    background: url("../assets/about.webp") no-repeat;
     width: 100%;
     background-size: cover;
     background-size: cover;
@@ -142,12 +142,12 @@ header .container .col-md-6:last-child p{
     overflow-y: hidden;
 }
 
+.accordion-header:active  {
+    border: 0;
+}
 .section-1 img{
     width: 75%;
     height: 75%;
-}
-.section-1 .col-md-6:first-child{
-    padding-left: 6vmin;
 }
 
 .section-1 h3{
